@@ -8,10 +8,4 @@
  * except in compliance with the MIT License.
  */
 
-import DeploymentPlugin from './deployment-plugin';
-import StartInstancePlugin from './start-instance-plugin';
-
-export default [
-  DeploymentPlugin,
-  StartInstancePlugin
-];
+export { default } from './StartInstancePlugin';

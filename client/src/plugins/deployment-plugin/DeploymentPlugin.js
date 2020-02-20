@@ -128,7 +128,7 @@ export default class DeploymentPlugin extends PureComponent {
 
     return <React.Fragment>
       { hasActiveTab &&
-        <Fill slot="toolbar" group="8_deploy">
+        <Fill slot="toolbar" group="8_deploy" priority={ 1 }>
           <Button
             onClick={ this.onIconClicked }
             title="Deploy current diagram"
